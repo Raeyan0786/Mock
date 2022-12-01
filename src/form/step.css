@@ -1,0 +1,29 @@
+.step__pos{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+
+}
+
+.input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.bdr{
+    border-left: none;
+    
+}
+@media only screen  and (max-width:1024px){
+    .step__pos{
+        left: 37%;
+    }
+    
+}
+@media only screen  and (max-width:768px){
+    .step__pos{
+        left: 29%;
+    }
+    
+}
